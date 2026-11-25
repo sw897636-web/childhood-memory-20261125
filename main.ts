@@ -5,7 +5,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // let go when the street went quiet behind me — then pedalling on,
 // afraid to look back.
 const ENTRY =
-  "My father taught me to ride by running behind my old red bike, and I only knew he had let go when the street went quiet behind me, and I kept pedalling, afraid to look back.";
+  "Every Sunday in 1994, Grandpa Walt let me wind the brass key of his kitchen clock exactly eleven turns, never twelve, because twelve would \"break its heart,\" and the week after his funeral I wound it twelve, and nothing happened, which was worse.";
 
 const codePoints = [...ENTRY].length;
 if (codePoints < 1 || codePoints > 280) {
